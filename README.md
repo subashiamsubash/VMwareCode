@@ -23,6 +23,16 @@
 
 
 
+# Login Application
+
+###### step-1:Clone the code 
+###### step-2: cd vmloginapp
+###### step-3: npm install
+###### step-4: npm start
+###### step-5: Enter the url in browser
+               http://localhost:8080/login
+
+
 
 
 
