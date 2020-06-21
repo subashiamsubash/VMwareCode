@@ -17,7 +17,7 @@
 
            url:http://localhost:8181/api/tasks/{uuid}/status
            
-###### step-6 Get:
+###### step-6: GET:
 
           http://localhost:8181/api/tasks/{uuid}/getlist
 
