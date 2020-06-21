@@ -1,21 +1,24 @@
 # Run The NUMBER GENERATOR
 
-step-1:Clone the code 
-step-2: cd vmcode
-step-2:run "docker build -t myorg/myapp ." 
-step-3:run " docker run -p 8181:8181 myorg/myapp"
+###### step-1:Clone the code 
+###### step-2: cd vmcode
+###### step-2:run "docker build -t myorg/myapp ." 
+###### step-3:run " docker run -p 8181:8181 myorg/myapp"
 
-## Use Postman tool for below request call 
-step-4: POST:
+### Use Postman tool for below request call 
+###### step-4: POST:
+
            url:http://localhost:8181/api/generate
            body:{
                  "goal":"10",
                  "step":"2"
                }
-step-5: GET:
+##### step-5: GET:
+
            url:http://localhost:8181/api/tasks/{uuid}/status
            
-step-6 Get:
+###### step-6 Get:
+
           http://localhost:8181/api/tasks/{uuid}/getlist
 
 
